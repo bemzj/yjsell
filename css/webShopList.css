@@ -30,30 +30,63 @@ body {
     background-color: white;
     border-bottom: 1px solid #dfdfdf;
     border-top: 1px solid #dfdfdf; }
-    #shopList .shopSearch .searchCondition a {
+    #shopList .shopSearch .searchCondition select {
       display: block;
       width: 92%;
+      position: absolute;
+      left: 4%;
       margin: 0 auto;
       font-size: 0.28rem;
       line-height: 0.8rem;
       height: 0.8rem;
       color: #999999;
       text-indent: 0.5rem;
+      border: 0px;
       border-bottom: 1px solid #dfdfdf;
+      background-color: white;
+      top: 0%;
+      opacity: 0; }
+    #shopList .shopSearch .searchCondition ul li {
       position: relative; }
-      #shopList .shopSearch .searchCondition a img:nth-child(1) {
+      #shopList .shopSearch .searchCondition ul li p {
+        display: block;
+        width: 92%;
+        margin: 0 auto;
+        font-size: 0.28rem;
+        line-height: 0.8rem;
+        height: 0.8rem;
+        color: #999999;
+        text-indent: 0.5rem;
+        border: 0px;
+        border-bottom: 1px solid #dfdfdf;
+        background-color: white; }
+      #shopList .shopSearch .searchCondition ul li img:nth-child(3) {
         position: absolute;
         width: 0.28rem;
         top: 0.26rem;
-        display: none; }
-      #shopList .shopSearch .searchCondition a .selected {
+        display: none;
+        margin-left: 5%; }
+      #shopList .shopSearch .searchCondition ul li .selected {
         display: block !important; }
-      #shopList .shopSearch .searchCondition a img:nth-child(2) {
+      #shopList .shopSearch .searchCondition ul li img:nth-child(4) {
         position: absolute;
         right: 0;
-        top: 0.32rem;
-        width: 0.14rem; }
-    #shopList .shopSearch .searchCondition ul li:last-child a {
+        top: 0.3rem;
+        width: 0.14rem;
+        margin-right: 5%;
+        background-color: white; }
+    #shopList .shopSearch .searchCondition ul li:last-child select {
       border-bottom: 0px; }
+  #shopList .shopSearch .searchBtn {
+    font-size: 0.28rem; }
+    #shopList .shopSearch .searchBtn button {
+      display: block;
+      width: 92%;
+      margin: 0 auto;
+      border-radius: 10px;
+      height: 0.6rem;
+      background-color: #6c1d76;
+      color: white;
+      font-size: 0.28rem; }
 
 /*# sourceMappingURL=webShopList.css.map */
