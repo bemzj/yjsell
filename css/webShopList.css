@@ -1,0 +1,59 @@
+body {
+  background-color: #eeeeee; }
+
+#shopList .shopList {
+  padding-bottom: 0.3rem; }
+  #shopList .shopList .addressBox {
+    margin-top: 0.3rem; }
+#shopList .shopSearch {
+  width: 100%; }
+  #shopList .shopSearch .searchBox {
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+    background-color: white;
+    border-bottom: 1px solid #dfdfdf;
+    border-top: 1px solid #dfdfdf; }
+    #shopList .shopSearch .searchBox p {
+      display: block;
+      width: 92%;
+      margin: 0 auto;
+      font-size: 0.28rem;
+      line-height: 0.8rem;
+      height: 0.8rem;
+      color: #999999;
+      background: url(../img/address.png) no-repeat left center;
+      background-size: 0.25rem;
+      text-indent: 0.5rem; }
+  #shopList .shopSearch .searchCondition {
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+    background-color: white;
+    border-bottom: 1px solid #dfdfdf;
+    border-top: 1px solid #dfdfdf; }
+    #shopList .shopSearch .searchCondition a {
+      display: block;
+      width: 92%;
+      margin: 0 auto;
+      font-size: 0.28rem;
+      line-height: 0.8rem;
+      height: 0.8rem;
+      color: #999999;
+      text-indent: 0.5rem;
+      border-bottom: 1px solid #dfdfdf;
+      position: relative; }
+      #shopList .shopSearch .searchCondition a img:nth-child(1) {
+        position: absolute;
+        width: 0.28rem;
+        top: 0.26rem;
+        display: none; }
+      #shopList .shopSearch .searchCondition a .selected {
+        display: block !important; }
+      #shopList .shopSearch .searchCondition a img:nth-child(2) {
+        position: absolute;
+        right: 0;
+        top: 0.32rem;
+        width: 0.14rem; }
+    #shopList .shopSearch .searchCondition ul li:last-child a {
+      border-bottom: 0px; }
+
+/*# sourceMappingURL=webShopList.css.map */

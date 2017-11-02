@@ -1,0 +1,81 @@
+//网店
+#webShop{
+    width: 100%;
+    height: 100%;
+}
+//地图
+#map{
+    width: 100%;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    -webkit-justify-content: center;
+    -webkit-flex-direction: column;
+    background-color: white;
+    font-size: 0.32rem;
+}
+//门店地址
+.shopAddress{
+    width: 100%;
+    height: 25%;
+    background-color: #eeeeee;
+    //轮播地址
+    .swiper-container{
+        width: 100%;
+        height: 100%;
+        .swiper-slide {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            display: -webkit-flex;
+            -webkit-align-items: center;
+            -webkit-justify-content: center;
+            -webkit-flex-direction: column;
+        }
+    }
+}
+.searchWebShop{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    -webkit-justify-content: center;
+    -webkit-flex-direction: column;
+    .addressBox{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        display: -webkit-flex;
+        -webkit-align-items: center;
+        -webkit-justify-content: center;
+        -webkit-flex-direction: column;
+        ul li:nth-child(1) img{
+            width: 33%;
+            margin: 0 auto;
+        }
+        ul li:nth-child(2) p{
+            font-size: 0.28rem;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 0.2rem;
+        }
+        ul li:nth-child(3) p{
+            font-size: 0.24rem;
+            text-align: center;
+            margin-top: 0.05rem;
+            color: #999999;
+        }
+    }
+}
