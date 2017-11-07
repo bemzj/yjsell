@@ -85,11 +85,5 @@ body {
           color: #999999; }
     #home .hotQuestion .qusetionBox .qList .questionDetails:last-child {
       border: 0px; }
-#home .bottomText {
-  padding: 0.3rem 0; }
-  #home .bottomText p {
-    font-size: 0.24rem;
-    color: #b2b2b2;
-    text-align: center; }
 
 /*# sourceMappingURL=publicSI.css.map */

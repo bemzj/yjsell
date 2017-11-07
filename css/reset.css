@@ -4,7 +4,7 @@ img,fieldset,input[type="submit"]{border:0 none;}
 em{font-style:normal;}
 strong{font-weight:normal;}
 table{border-collapse:collapse;border-spacing:0;}
-button,input[type="button"]{cursor:pointer;border:0 none;}
+button,input[type="button"]{cursor:pointer;border:0 none;outline: none;}
 a,button,input,img{-webkit-touch-callout:none;}
 input,select,textarea{outline:none;}
 a{text-decoration:none;}

@@ -8,6 +8,11 @@
   height: 0.4rem;
   padding: 0.2rem; }
 
+#head .hmiddle p {
+  color: #030303;
+  font-weight: 500;
+  font-size: 0.34rem; }
+
 #home #head .hleft {
   width: 25%; }
 
