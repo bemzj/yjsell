@@ -21,14 +21,15 @@ function popw(fp,sp,index,callBack,e){
 	$('body').append('<div class="popWindow"><div class="popBox"><ul><li><p class="firstp">'+fp+'</p></li><li><p class="secondp">'+sp+'</p></li><li><div class="onlyOne" style="display: none;"><button class="confirm">确定</button></div><div class="onlyTwo"><span></span><div class="oLeft floatl"><button class="ok">确定</button></div><div class="oRight floatr"><button class="confirm" >取消</button></div><div class="clearBoth"></div></div></li></ul></div></div>');
 	//关闭弹窗事件
 	$('.confirm').on('click',function(){
-		$('.popWindow').hide();
+		$('.popWindow').remove();
 	});	
 	if(index==2)
 	{	
 		$('.onlyOne').hide();
 		$('.onlyTwo').show();
 		$('.ok').on('click',function(){
-			
+			$('.popWindow').remove();
+			callBack();
 		});
 	}else{
 		$('.onlyOne').show();
