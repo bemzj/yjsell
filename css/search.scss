@@ -1,0 +1,32 @@
+.search{
+    .sLeft{
+        width: 85%;
+        input {
+            display: block;
+            width: 94%;
+            height: 0.8rem;
+            margin: 0 auto;
+            border-radius: 4px;
+            background: url(../img/searchBkg.png) no-repeat 0.2rem center;
+            background-size: auto 0.32rem;
+            text-indent: 0.7rem;
+            background-color: #efeff3;
+            font-size: 0.3rem;
+            line-height: 0.8rem;
+            color: #757575;
+            border: 0;
+        }
+    }
+    .sRight{
+        width: 15%;
+        height: 0.8rem; 
+        font-size: 0.32rem;
+        button{
+           height: 0.8rem; 
+           font-size: 0.32rem;
+           color: #333333;
+           width: 82%;
+           background-color: rgba(0,0,0,0);
+        }
+    }
+} 
