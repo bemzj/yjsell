@@ -221,4 +221,38 @@
         font-size: 0.28rem;
         background-color: transparent; }
 
+.noResult {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  height: 100%;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-justify-content: center;
+  -webkit-flex-direction: column; }
+  .noResult img {
+    width: 40%;
+    margin: 0 auto; }
+  .noResult p {
+    color: #999999;
+    text-align: center;
+    line-height: 0.6rem;
+    font-size: 0.26rem;
+    margin-bottom: 0.1rem; }
+  .noResult a {
+    display: block;
+    background-color: #60116a;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 0.3rem;
+    color: white;
+    line-height: 0.7rem;
+    text-align: center;
+    border-radius: 5px; }
+
 /*# sourceMappingURL=public.css.map */
