@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>登录</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+		<meta content="yes" name="apple-mobile-web-app-capable"/>
+	    <meta content="black" name="apple-mobile-web-app-status-bar-style"/>
+	    <meta content="telephone=no" name="format-detection"/>
+	    <link rel="stylesheet" href="css/reset.css" />
+	    <link rel="stylesheet" href="css/login.css" />
+	    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/rem.js" ></script>
+	</head>
+	<body>
+		<div id="login">
+			<ul>
+				<li>
+					<img src="img/LoginLogo.png"/>
+				</li>
+				<li>
+					<input  type="text" name="phone" placeholder="手机号码"/>
+				</li>
+				<li>
+					<input  type="text" name="phone" placeholder="动态密码" maxlength="8"/>
+					<button id="getCode">获取动态密码</button>
+				</li>
+				<li>
+					<div class="checkBox floatl">
+						<img src="img/yes.png" />
+						<input type="checkbox" checked="checked" name="yes"/>
+					</div>
+					<div class="floatl read">
+						<a href="###">同意雅洁协议</a>
+					</div>
+					<div class="clearl"></div>
+				</li>
+				<li>
+					<button>登录</button>
+				</li>
+			</ul>
+		</div>
+		<div id="content">
+			
+		</div>
+	</body>
+	<script type="text/javascript" src="js/login.js" ></script>
+</html>

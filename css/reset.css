@@ -49,3 +49,14 @@ li{
 .clearBoth{
 	clear: both;
 }
+input[type="search"]{-webkit-appearance:none;} 
+input[type=search]::-webkit-search-cancel-button{
+    -webkit-appearance: none;
+
+    position: relative;
+    height: 0.24rem;
+    width: 0.24rem;
+    border-radius: 50%;
+    background:url(../img/closes.png) no-repeat center center;
+    background-size: cover;
+}

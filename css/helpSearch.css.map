@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AAAA,QAAS;EACL,aAAa,EAAE,IAAI;EACnB,UAAU,EAAE,MAAM",
+"sources": ["helpSearch.scss"],
 "names": [],
 "file": "helpSearch.css"
 }

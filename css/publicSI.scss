@@ -9,15 +9,15 @@ body{
     .search a{
         display: block;
         width: 94%;
-        height: 0.8rem;       
-        margin: 0 auto;       
+        height: 0.5rem;
+        margin: 0 auto;
         border-radius: 4px;
-        background:url(../img/searchBkg.png) no-repeat 0.2rem center;
-        background-size: auto 0.32rem;
-        text-indent: 0.7rem;
+        background: url(../img/searchBkg.png) no-repeat 0.15rem center;
+        background-size: auto 0.24rem;
+        text-indent: 0.6rem;
         background-color: #efeff3;
-        font-size: 0.3rem;
-        line-height: 0.8rem;
+        font-size: 0.24rem;
+        line-height: 0.5rem;
         color: #757575;
     }
     .hotQuestion{
@@ -29,8 +29,8 @@ body{
             margin: 0 auto;
             .qTitle{
                 p{
-                    font-size: 0.34rem;
-                    padding: 0.3rem 0 0; 
+                    font-size: 0.32rem;
+                    padding: 0.4rem 0 0; 
                     color: #353535;
                 }  
             } 

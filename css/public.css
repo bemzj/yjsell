@@ -223,10 +223,7 @@
 
 .noResult {
   width: 100%;
-  position: fixed;
-  top: 0;
-  height: 100%;
-  left: 0;
+  height: 8rem;
   display: flex;
   justify-content: center;
   align-items: center;
