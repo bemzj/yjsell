@@ -115,7 +115,6 @@
 								<img src="img/jHead.png" />
 							</div>
 							<a href="###">头像</a>
-							<img src="img/moreOrder.png" />
 						</div>
 					</li>
 					<li>
@@ -151,7 +150,7 @@
 					<li>
 						<div>
 							<p></p>
-							<a href="###" class="exchange">修改密码</a>
+							<a href="###" class="ep">修改密码</a>
 							<img src="img/moreOrder.png" />
 						</div>
 					</li>
@@ -203,6 +202,81 @@
 				</ul>
 			</div>
 		</div>
+		<!--修改信息-->
+		<div id="exchangePerson" class="exchangeBox" style="display: none;">
+			<div class="pHead">
+				<a href="###" class="back backP"><img src="img/back.png"/></a>
+				<p>修改姓名</p>
+			</div>
+			<div class="exInput">
+				<input type="search" />
+			</div>
+			<div class="exBtn">
+				<button class="keep">保存</button>
+			</div>
+		</div>
+		<!--修改密码-->
+		<div id="exchangePassword" class="exchangeBox">
+			<div class="pHead">
+				<a href="###" class="back backPwd"><img src="img/back.png"/></a>
+				<p>修改密码</p>
+			</div>
+			<div class="exInput exPassword" >
+				<ul>
+					<li>
+						<p>旧密码</p>
+						<input type="password" placeholder="请输入旧密码" maxlength="20"/>
+						<a href="###"><img src="img/closes.png"/></a>
+					</li>
+					<li>
+						<p>新密码</p>
+						<input type="password" placeholder="请输入新密码" maxlength="20"/>
+						<a href="###"><img src="img/closes.png"/></a>
+					</li>
+				</ul>	
+			</div>
+			<div class="exInput exPassword1" style="display: none;">
+				<ul>
+					<li>
+						<p>手机号</p>
+						<input type="search" placeholder="请输入您的手机号" maxlength="11"/>
+						<a href="###"><img src="img/closes.png"/></a>
+					</li>
+					<li>
+						<p>验证码</p>
+						<input type="search" placeholder="请输入验证码" maxlength="20"/>
+						<a href="###"><img src="img/closes.png"/></a>
+						<button class="send">发送验证码</button>
+					</li>
+				</ul>	
+			</div>
+			<div class="exInput exPassword2" style="display: none;">
+				<ul>
+					<li>
+						<p>新密码</p>
+						<input type="password" placeholder="请输入新密码" maxlength="20"/>
+						<a href="###"><img src="img/closes.png"/></a>
+					</li>
+					<li>
+						<p>确认密码</p>
+						<input type="password" placeholder="请输入新密码" maxlength="20"/>
+						<a href="###"><img src="img/closes.png"/></a>
+					</li>
+				</ul>	
+			</div>
+			<div class="exBtn">
+				<button class="confirm">确定</button>
+				<button class="next" style="display: none;">下一步</button>
+				<button class="confirm1" style="display: none;">确定</button>
+			</div>
+			<div class="showAndMethod">
+				<p>显示密码</p>
+				<a href="###" class="else" md='2'>其他方式</a>
+				<a href="###" hide='true' class="showPassword" style="display: none;"><img src='img/yes.png'/></a>
+				<a href="###" hide='true' class="showPassword1"><img src='img/yes.png'/></a>
+			</div>
+		</div>
+		
 		<script type="text/javascript" src="js/person.js" ></script>
 	</body>
 </html>

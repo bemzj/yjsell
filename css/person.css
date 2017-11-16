@@ -163,7 +163,7 @@ body {
       height: 1.0rem;
       border-radius: 50%;
       top: 0.3rem;
-      right: 0.3rem;
+      right: 0rem;
       position: absolute;
       overflow: hidden; }
       #personInfor .message ul li:nth-child(1) > div .hBox img {
@@ -182,7 +182,9 @@ body {
     font-size: 0.28rem;
     width: 100%;
     color: #020202;
-    background-color: white; }
+    background-color: white;
+    display: block;
+    margin-top: 0.2rem; }
 
 .message {
   width: 100%;
@@ -266,5 +268,115 @@ body {
       box-shadow: 0px 0px  2px 2px #bbbbbb; }
       #about .main .smBox > .floatl img {
         width: 100%; }
+
+.exchangeBox {
+  background-color: #f4f4f4;
+  position: fixed;
+  top: 0;
+  left: 100%;
+  width: 100%;
+  height: 100%;
+  z-index: 6; }
+  .exchangeBox .exInput {
+    width: 100%;
+    background-color: white;
+    height: 0.8rem;
+    margin-top: 0.2rem; }
+    .exchangeBox .exInput input {
+      display: block;
+      width: 92%;
+      margin: 0 auto;
+      line-height: 0.8rem;
+      color: #333333;
+      font-size: 0.28rem;
+      border: 0; }
+  .exchangeBox .exBtn {
+    margin-top: 0.4rem; }
+    .exchangeBox .exBtn button {
+      display: block;
+      width: 92%;
+      margin: 0 auto;
+      height: 0.8rem;
+      font-size: 0.28rem;
+      color: white;
+      background-color: #76017a; }
+
+#exchangePassword {
+  left: 100%; }
+  #exchangePassword .exInput {
+    height: 1.6rem;
+    border-bottom: 1px solid white; }
+    #exchangePassword .exInput ul li {
+      position: relative; }
+      #exchangePassword .exInput ul li p {
+        position: absolute;
+        top: 0;
+        left: 4%;
+        font-size: 0.28rem;
+        line-height: 0.8rem; }
+      #exchangePassword .exInput ul li a {
+        position: absolute;
+        top: 0.28rem;
+        right: 4%;
+        width: 0.24rem;
+        height: 0.24rem;
+        display: none; }
+        #exchangePassword .exInput ul li a img {
+          width: 100%; }
+    #exchangePassword .exInput ul li:nth-child(1) input {
+      border-bottom: 1px solid #e2e2e2; }
+    #exchangePassword .exInput ul li input {
+      text-indent: 1.0rem; }
+    #exchangePassword .exInput ul li input::-ms-input-placeholder {
+      color: #999999; }
+    #exchangePassword .exInput ul li input::-moz-placeholder {
+      color: #999999; }
+    #exchangePassword .exInput ul li input::-webkit-input-placeholder {
+      color: #999999; }
+  #exchangePassword .exPassword1 ul li:nth-child(2) input {
+    width: 62%;
+    margin-left: 4%; }
+  #exchangePassword .exPassword1 ul li:nth-child(2) button {
+    font-size: 0.28rem;
+    color: #76007a;
+    display: block;
+    line-height: 0.8rem;
+    position: absolute;
+    top: 0;
+    right: 4%;
+    background-color: white; }
+  #exchangePassword .exPassword2 ul li input {
+    text-indent: 1.3rem; }
+  #exchangePassword .showAndMethod {
+    position: relative;
+    height: 0.6rem; }
+    #exchangePassword .showAndMethod p {
+      width: 92%;
+      margin: 0 auto;
+      font-size: 0.28rem;
+      line-height: 0.6rem;
+      color: #999999;
+      text-indent: 0.5rem; }
+    #exchangePassword .showAndMethod a:nth-child(2) {
+      display: block;
+      font-size: 0.28rem;
+      color: #76007a;
+      line-height: 0.6rem;
+      position: absolute;
+      top: 0;
+      right: 4%; }
+    #exchangePassword .showAndMethod a:nth-child(3), #exchangePassword .showAndMethod a:nth-child(4) {
+      display: block;
+      width: 0.36rem;
+      height: 0.36rem;
+      border-radius: 50%;
+      background-color: #999999;
+      line-height: 0.6rem;
+      position: absolute;
+      top: 0.12rem;
+      left: 4%; }
+      #exchangePassword .showAndMethod a:nth-child(3) img, #exchangePassword .showAndMethod a:nth-child(4) img {
+        margin: 16%;
+        width: 68%; }
 
 /*# sourceMappingURL=person.css.map */
