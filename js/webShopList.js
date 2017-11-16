@@ -4,7 +4,6 @@ $(function(){
 		$(this).next('img').addClass('selected');	
 	});
 	$('.choiceArea select').change(function(){
-		$(this).prev('p').html($(this).children('option:selected').val());
-		
+		$(this).prev('p').html($(this).children('option:selected').val());		
 	});
 });

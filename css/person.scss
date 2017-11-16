@@ -1,0 +1,336 @@
+body{
+    background-color: #f6f4f8;
+}
+#person{
+    .head{
+        width: 100%;
+        height: 2.0rem;
+        background: url(../img/jHead.jpg) no-repeat;
+        background-size: cover;
+        position: relative;
+        .headPic{
+            width: 1.0rem;
+            height: 1.0rem;
+            margin-top: 0.5rem;
+            margin-left: 6%;
+            border-radius: 50%;
+            background: url(../img/person.png) no-repeat;
+            background-size: cover;
+            overflow: hidden;
+            img{
+                width: 100%;
+            }
+        }
+        .infor{
+            width: 4.5rem;
+            height: 1.0rem;
+            margin-top: 0.5rem;
+            overflow: hidden;
+            line-height: 0.35rem;
+            text-indent: 0.2rem;
+            ul li:nth-child(1) p{
+                margin-top: 0.15rem;
+                font-size: 0.28rem;
+                color: white;
+            }
+            ul li:nth-child(2) p{
+                font-size: 0.24rem;
+                color: #fffeff;
+            }
+        }
+    }
+    .myOrder{
+        margin-top: 0.2rem;
+        width: 100%;
+        background-color: white;
+        .moreOrder{
+            width: 93.33%;
+            margin: 0 auto;
+            height: 0.8rem;
+            position: relative;
+            a{
+                position: absolute;
+                width: 100%;
+                top: 0;
+                left: 0;
+                z-index: 4;
+                display: block;
+                font-size: 0.28rem;
+                line-height: 0.8rem;
+                color: #0b1b27;
+                background:url(../img/progress.png) no-repeat left center;
+                background-size: auto 0.28rem;
+                text-indent: 0.45rem;
+                border-bottom: 1px solid #e2e2e2;
+                font-weight: bold;
+            }
+            p{
+                font-size: 0.24rem;
+                line-height: 0.8rem;
+                position: absolute;
+                top: 0;
+                right: 0%;
+                color: #999999;
+                width: 1.21rem;
+                background: url(../img/moreOrder.png) no-repeat right center;
+                background-size: auto 0.22rem;
+            }
+        }  
+    }
+    .bottomChoice{
+        .moreOrder:nth-child(1){
+            a{
+                background-image: url(../img/seting.png);
+            }        
+        }
+        .moreOrder:nth-child(2){
+            a{
+                background-image: url(../img/about.png);
+            }        
+        }
+    }
+    .orderBox{
+        width: 93.33%;
+        margin: 0 auto;
+        .orders{
+            width: 20%;
+            height: 1.8rem;
+            a{
+                display: block;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                display: -webkit-flex;
+                -webkit-align-items: center;
+                -webkit-justify-content: center;
+                -webkit-flex-direction: column;
+                position: relative;
+                img{
+                    height: 0.4rem;
+                    margin: 0 auto;
+                }
+                p{
+                    font-size: 0.24rem;
+                    color: #666666;
+                    text-align: center;
+                    line-height: 0.4rem;
+                    margin-top: 0.1rem;
+                }
+                span{
+                    position: absolute;
+                    right: 0.2rem;
+                    top: 0.32rem;
+                    border: 1.5px solid #e35a54;
+                    border-radius: 50%;
+                    font-size: 0.24rem;
+                    width: 0.35rem;
+                    height: 0.35rem;
+                    text-align:center ;
+                    line-height: 0.35rem;
+                    color: #e35a54;
+                    background-color: white;
+                    transform: scale(0.75);
+                }
+            }
+            
+        }
+    }
+    .twoChoice{
+        background-color: white;
+        >div{
+            width: 50%;
+            
+            a{
+                width: 100%;
+                height: 1.2rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                display: -webkit-flex;
+                -webkit-align-items: center;
+                -webkit-justify-content: center;
+                -webkit-flex-direction: column;
+                position: relative;
+                p:nth-child(1){
+                    font-size: 0.3rem;
+                    color: #333333;
+                    text-align: center;
+                    font-weight: bold;
+                    margin-top: -0.05rem;
+                }
+                p:nth-child(2){
+                    font-size: 0.3rem;
+                    color: #333333;
+                    font-size: 0.24rem;
+                    text-align: center;
+                }
+                span{
+                    position: absolute;
+                    top: 0.1rem;
+                    left: -0.5px;
+                    height: 1.0rem;
+                    border-right: 1px solid #e5e5e5;
+                }
+            }
+        }
+    }
+}
+#personInfor{
+    background-color: #f6f4f8;
+    position: fixed;
+    top: 0;
+    left:100%;
+    width: 100%;
+    height: 100%;
+    z-index: 6;
+    .message{
+        ul li:nth-child(1)>div{
+            height: 1.6rem;
+            a{
+                line-height: 1.6rem;
+            }
+            .hBox{
+                width: 1.0rem;
+                height: 1.0rem;
+                border-radius: 50%;
+                top: 0.3rem;
+                right: 0.3rem;
+                position: absolute;
+                overflow: hidden;
+                img{
+                    width: 100%;
+                }
+            }
+            >img{
+                top: 0.68rem;
+            }
+        }
+        ul li:last-child div{
+            a{
+                border: 0px;
+            }
+        }
+        .accountBox{
+            margin-top: 0.2rem;
+            background-color: white;
+            a{
+                border: 0;
+            }
+        }
+    }
+    .exit{
+        button{
+            height: 0.8rem;
+            font-size: 0.28rem;
+            width: 100%;
+            color: #020202;
+            background-color: white;
+        }
+    }
+}
+.message {
+    width: 100%;
+    margin-top: 0.2rem;
+    ul {
+        width: 100%;
+        background-color: white;
+    }
+    ul li>div,
+    .account {
+        width: 92%;
+        margin: 0 auto;
+        height: 0.8rem;
+        position: relative;
+        a {
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: block;
+            font-size: 0.28rem;
+            color: #020202;
+            line-height: 0.8rem;
+            border-bottom: 1px solid #e2e2e2;
+            width: 100%;
+            z-index: 100;
+        }
+        p {
+            position: absolute;
+            right: 0.3rem;
+            top: 0;
+            line-height: 0.8rem;
+            font-size: 0.26rem;
+            color: #999999;
+        }
+        >img {
+            position: absolute;
+            height: 0.24rem;
+            top: 0.28rem;
+            right: 0;
+        }
+    }
+    ul li:last-child div {
+        a {
+            border: 0px;
+        }
+    }
+}
+#about{
+    background-color: #f6f4f8;
+    position: fixed;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    height: 100%;
+    z-index: 6;
+    overflow: auto;
+    
+    .main{
+        width: 93.33%;
+        margin: 0 auto;
+        ul li:nth-child(1){
+            padding: 0.4rem 0;
+            border-bottom: 1px solid #dcdcdc;
+            img{
+                width: 62.43%;
+                margin: 0 auto;
+            }  
+        }
+        ul li{
+            border-bottom: 1px solid #dcdcdc;
+            padding-bottom:0.4rem;
+            p{
+                width: 92%;
+                margin: 0 auto;
+                font-size: 0.28rem;
+            }
+            p:nth-child(1){
+                line-height: 0.8rem;
+                padding-top: 0.2rem;
+            }
+            p:nth-child(2){
+                line-height: 0.5rem;
+                text-indent: 0.56rem;
+            }
+        }
+        ul li:last-child{
+            border-bottom: 0px solid #dcdcdc;
+        }
+        .smBox{           
+            >.floatl{
+                width: 42%;
+                margin: 4%;
+                height: 4.48rem;
+                overflow: hidden;
+                box-shadow:0px 0px  2px 2px #bbbbbb;
+                img{
+                    width: 100%;
+                    
+                }
+            }
+        }
+    }
+}
