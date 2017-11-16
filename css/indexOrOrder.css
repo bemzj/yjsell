@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .customer {
   width: 100%; }
   .customer .customerBox {
@@ -26,10 +27,45 @@
     .customer .customerBox ul li:nth-child(2) {
       padding: 0.1rem 0;
       border-bottom: 1px solid #e2e2e2; }
-      .customer .customerBox ul li:nth-child(2) p {
-        font-size: 0.26rem;
-        line-height: 0.5rem;
-        color: #666666; }
+      .customer .customerBox ul li:nth-child(2) > div:nth-child(1) {
+        width: 25%;
+        height: 1.48rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        display: -webkit-flex;
+        -webkit-align-items: center;
+        -webkit-justify-content: center;
+        -webkit-flex-direction: column;
+        overflow: hidden; }
+        .customer .customerBox ul li:nth-child(2) > div:nth-child(1) img {
+          width: 100%; }
+      .customer .customerBox ul li:nth-child(2) > div:nth-child(2) {
+        width: 75%;
+        line-height: 0.4rem; }
+        .customer .customerBox ul li:nth-child(2) > div:nth-child(2) p {
+          word-break: break-all;
+          text-overflow: ellipsis;
+          display: -webkit-box;
+          /** 对象作为伸缩盒子模型显示 **/
+          -webkit-box-orient: vertical;
+          /** 设置或检索伸缩盒对象的子元素的排列方式 **/
+          -webkit-line-clamp: 1;
+          /** 显示的行数 **/
+          overflow: hidden;
+          /** 隐藏超出的内容 **/ }
+        .customer .customerBox ul li:nth-child(2) > div:nth-child(2) p:nth-child(1) {
+          font-size: 0.3rem;
+          color: #061b28;
+          font-weight: bold;
+          margin-top: 0.16rem; }
+        .customer .customerBox ul li:nth-child(2) > div:nth-child(2) p:nth-child(2) {
+          font-size: 0.28rem;
+          color: #999999; }
+        .customer .customerBox ul li:nth-child(2) > div:nth-child(2) p:nth-child(3) {
+          font-size: 0.26rem;
+          color: #999999; }
     .customer .customerBox ul li:nth-child(3) {
       position: relative; }
       .customer .customerBox ul li:nth-child(3) a {

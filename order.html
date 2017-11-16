@@ -17,7 +17,7 @@
 	<body>
 		<div id="order">
 			<div class="pHead">
-				<a href="index.html" class="back backP"><img src="img/back.png"/></a>
+				<a href="person.html" class="back backP"><img src="img/back.png"/></a>
 				<p>我的订单</p>
 			</div>
 			<div class="choice">
@@ -51,26 +51,15 @@
 							<p>待维修</p>
 						</li>
 						<li>
-							<p>客户姓名：张三</p>
-							<p>联系方式：1380013800</p>
-							<p>所属地区：广东 广州 珠海</p>
-						</li>
-						<li>
-							<p>2017-3-10</p>
-							<a href="customer.html?v=1">查看详情</a>
-						</li>
-					</ul>
-				</div>
-				<div class="customerBox">
-					<ul>
-						<li>
-							<a href="###">订单号：12356511111111111</a>
-							<p>待维修</p>
-						</li>
-						<li>
-							<p>客户姓名：张三</p>
-							<p>联系方式：1380013800</p>
-							<p>所属地区：广东 广州 珠海</p>
+							<div class="floatl">
+								<img src="img/thing.jpg" />
+							</div>
+							<div class="floatl">
+								<p>雅洁智能门锁雅洁智能门锁</p>
+								<p>销售网点：雅洁五金旗舰店</p>
+								<p>产品型号：283764</p>
+							</div>				
+							<div class="clearl"></div>
 						</li>
 						<li>
 							<p>2017-3-10</p>
@@ -91,5 +80,18 @@
 				</ul>			
 			</div>
 		</div>
+		<script>
+			$(function(){
+				//选择类型
+				$('.choice ul li').on('click',function(){
+					$(this).find('a').addClass('aActive');
+					$(this).siblings('li').find('a').removeClass('aActive');
+				});
+				//设置没有相关结果
+				setTimeout(function(){
+					$('.noResult').height($(window).height()-$('.pHead').height()-$('.choice').height());
+				},200);
+			});
+		</script>
 	</body>
 </html>
