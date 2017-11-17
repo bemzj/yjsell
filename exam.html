@@ -19,50 +19,79 @@
 				<a href="person.html" class="back backP"><img src="img/back.png"/></a>
 				<p>开始测试</p>
 			</div>
-			<div class="problemBox">
-				<div class="pTitle">
-					<ul>
-						<li>
-							<p>雅洁智能锁知识测试</p>
-						</li>
-						<li>
-							<p>（第一期小测试）</p>
-						</li>
-					</ul>					
+			<div class="problemOut" style="display: none;">
+				<div class="problemBox">
+					<div class="pTitle">
+						<ul>
+							<li>
+								<p>雅洁智能锁知识测试</p>
+							</li>
+							<li>
+								<p>（第一期小测试）</p>
+							</li>
+						</ul>					
+					</div>
+					<div class="problems">
+						<div class="problem">
+							<div class="pt">
+								<p>1.你是否使用过雅洁智能门锁？</p>
+							</div>
+							<div class="choice"> 
+								<ul>
+									<li>
+										<label class="radio"><input type="radio" name="radio" value="1" checked>是<i></i></label>  
+									</li>
+									<li>
+										<label class="radio"><input type="radio" value="2" name="radio">否<i></i></label>  
+									</li>
+								</ul>	
+							</div>  							
+						</div>
+						<div class="problem">
+							<div class="pt">
+								<p>2.你是否使用过雅洁智能门锁？</p>
+							</div>
+							<div class="choice"> 
+								<ul>
+									<li>
+										<label class="checkBox"><input type="checkBox" name="check" value="1" checked>是<i></i></label>  
+									</li>
+									<li>
+										<label class="checkBox"><input type="checkbox" value="2" name="check">否<i></i></label>  
+									</li>
+								</ul>	
+							</div>  							
+						</div>
+					</div>		
 				</div>
-				<div class="problems">
-					<div class="problem dan">
-						<p>1.你是否使用过雅洁智能门锁？</p>
-						<div class="choice"> 
-							<ul>
-								<li>
-									<label class="radio"><input type="radio" name="radio" value="1" checked>是<i></i></label>  
-								</li>
-								<li>
-									<label class="radio"><input type="radio" value="2" name="radio">否<i></i></label>  
-								</li>
-							</ul>	
-						</div>  							
-					</div>
-					<div class="problem dan">
-						<p>2.你是否使用过雅洁智能门锁？</p>
-						<div class="choice"> 
-							<ul>
-								<li>
-									<label class="checkBox"><input type="checkBox" name="check" value="1" checked>是<i></i></label>  
-								</li>
-								<li>
-									<label class="checkBox"><input type="checkbox" value="2" name="check">否<i></i></label>  
-								</li>
-							</ul>	
-						</div>  							
-					</div>
-				</div>		
+				<div class="st">
+					<button>提交</button>
+				</div>
 			</div>
-			<div class="st">
-				<button>提交</button>
+			
+			<!--答题结果-->
+			<div class="result">
+				<div class="score">
+					<div>
+						<p><span>80</span>分</p>
+						<p>回答错误&nbsp;&nbsp;<span>2</span>&nbsp;&nbsp;回答正确&nbsp;&nbsp;<span>8</span>&nbsp;&nbsp;</p>
+					</div>
+				</div>
+				<div class="rBtn">
+					<a class="floatl" href="index.html">返回首页</a>
+					<a class="floatr" href="result.html">查看试题</a>
+					<div class="clearBoth"></div>
+				</div>
 			</div>
 		</div>
+		<script>
+			$(function() {
+				//设置没有相关结果
+				setTimeout(function() {
+					$('.result').height($(window).height() - $('.pHead').height());
+				}, 200);
+			})
+		</script>
 	</body>
 </html>
 
