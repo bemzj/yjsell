@@ -1,0 +1,31 @@
+$(function(){
+	//收藏
+	$('.collect').on('click',function(){
+		if($(this).attr('collect')=='false')
+		{
+			$(this).attr('collect','true');
+			$(this).find('img').attr('src','img/hasCollect.png');
+			$(this).find('span').css({"top":"0.24rem","opacity":'1.0'});
+			$(this).find('span').stop().show().animate({top:'-0.2rem',opacity:'0'},500,function(){
+				$(this).hide().css({"top":"0.24rem","opacity":'1.0'});
+			});
+		}else{
+			$(this).attr('collect','false');
+			$(this).find('img').attr('src','img/noCollect.png');
+		}	
+	});
+	//下载
+	$('.download').on('click',function(){
+		$('.popWindow1').show();
+	});
+	//关闭
+	$('.close').on('click',function(){
+		$('.popWindow1').hide();
+	});
+	//复制
+	var copy = new Clipboard('.copy');
+	$('.copy').bind('click',function(){
+		$('.popWindow1').hide();
+		popw("温馨提示","复制网站成功！",1);
+	});
+});
