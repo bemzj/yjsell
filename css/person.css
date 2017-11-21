@@ -32,6 +32,12 @@ body {
     #person .head .infor ul li:nth-child(2) p {
       font-size: 0.24rem;
       color: #fffeff; }
+  #person .head > img {
+    position: absolute;
+    top: 50%;
+    right: 6%;
+    height: 0.32rem;
+    margin-top: -0.16rem; }
 #person .myOrder {
   margin-top: 0.2rem;
   width: 100%;
