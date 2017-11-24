@@ -11,7 +11,6 @@
     	<link rel="stylesheet" href="css/demo.css"/>    
 	    <link rel="stylesheet" href="css/reset.css" />
 	    <link rel="stylesheet" type="text/css" href="css/public.css"/>    
-	    <link rel="stylesheet" href="css/person.css" />
 	    <link rel="stylesheet" href="css/rPerson.css" />	    
 	    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
 	    <script src="js/ydui.flexible.js"></script>
@@ -38,42 +37,28 @@
 			<div class="myOrder">
 				<div class="moreOrder">
 					<p>查看更多</p>
-					<a href="order.html" >保修进度</a>
+					<a href="###" >保修进度</a>
 				</div>
 				<div class="orderBox">
 					<div class="orders floatl">
 						<a href="order.html">
-							<img src="img/wait.png" />
+							<img src="img/repair01.png" />
 							<p>待维修</p>
 							<span>1</span>
 						</a>
 					</div>
 					<div class="orders floatl">
 						<a href="order.html">
-							<img src="img/repair.png" />
+							<img src="img/repair02.png" />
 							<p>维修中</p>
 							<span>2</span>
 						</a>
 					</div>
 					<div class="orders floatl">
 						<a href="order.html">
-							<img src="img/completed.png" />
+							<img src="img/repair03.png" />
 							<p>已完成</p>
-							<span>99</span>
-						</a>
-					</div>
-					<div class="orders floatl">
-						<a href="order.html">
-							<img src="img/work3.png" />
-							<p>已取消</p>
-							<span>4</span>
-						</a>
-					</div>
-					<div class="orders floatl">
-						<a href="order.html">
-							<img src="img/work4.png" />
-							<p>已关闭</p>
-							<span>5</span>
+							<span>99+</span>
 						</a>
 					</div>
 					<div class="clearl"></div>
@@ -82,20 +67,20 @@
 			<div class="myOrder bottomChoice">
 				<div class="moreOrder">
 					<p>&nbsp;</p>
-					<a href="###" class="setting" >我的产品</a>
+					<a href="rProduce.html" class="setting" >我的产品</a>
 				</div>
 			</div>
 			<div class="myOrder bottomChoice1">
 				<div class="moreOrder">
 					<p>&nbsp;</p>
-					<a href="###" class="about" >关于</a>
+					<a href="###" class="rHelp" >维修帮助</a>
 				</div>
 			</div>
 		</div>
 		<!--个人信息-->
 		<div id="personInfor" style="display: none;">
 			<div class="pHead">
-				<a href="###" class="back backPerson"><img src="img/back.png"/></a>
+				<a class=" backPerson"><img src="img/back.png"/></a>
 				<p>个人信息</p>
 			</div>
 			<div class="message">
@@ -135,52 +120,132 @@
 				</ul>
 			</div>
 		</div>
-		<!--关于-->
-		<div id="about" >
+		<!--维修帮助-->
+		<div id="help">
 			<div class="pHead">
-				<a href="###" class="back backPerson1"><img src="img/back.png"/></a>
-				<p>关于</p>
+				<a class="backP backRepair"><img src="img/back.png"/></a>
+				<p>维修帮助</p>
 			</div>
-			<div class="main">
-				<ul>
-					<li>
-						<img src="img/logon.png" />
-					</li>
-					<li>
-						<p>关于雅洁：</p>
-						<p>广东雅洁五金有限公司，始创于1990年，坐落风景秀丽、经济发达的珠江三角洲腹心——佛山市南海区大沥长虹岭工业园，占地面积达200亩。主要生产建筑门锁、五金、门用五金和家具五金四大类产品，涵盖插芯门锁、玻璃门锁、智能门锁、铜锁、工程用锁、卫浴挂件、卫生间附件、门用功能五金、玻璃五金、闭门器、地弹簧、工程配套五金、家具锁、小拉手、滑轨和抽屉、铰链及连接件等共 2000多个品种，150多种专利产品。</p>
-					</li>
-					<li>
-						<p>使用说明：</p>
-						<div class="smBox">
-							<div class="floatl">
-								<img src="img/my.png" />
-							</div>
-							<div class="floatl">
-								<img src="img/my.png" />
-							</div>
-							<div class="floatl">
-								<img src="img/my.png" />
-							</div>
-							<div class="floatl">
-								<img src="img/my.png" />
-							</div>
-							<div class="floatl">
-								<img src="img/my.png" />
-							</div>
-							<div class="floatl">
-								<img src="img/my.png" />
-							</div>
-							<div class="clearl"></div>
-						</div>
-					</li>
-				</ul>
+			<div class="helpContent">
+				<div class="helpChoice">
+					<ul>
+						<li>
+							<a href="###"class="aChioce apply">申请维修</a>
+						</li>
+						<li>
+							<a href="###"  class="pay">收费标准</a>
+						</li>
+					</ul>
+					<div class="clearl"></div>
+				</div>
+				<div class="helpMainCentent" >
+					<div class="contentBox">
+						<ul>
+							<li>
+								<p>1.绑定手机号码后自动同步产品。</p>
+							</li>
+							<li>
+								<div class="helpImgBox">
+									<div class="floatl">
+										<img class="showPic" src="img/help01.jpg" />
+									</div>
+									<div class="clearBoth"></div>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="contentBox">
+						<ul>
+							<li>
+								<p>2.点击进入“ 我的产品“，添加产品。</p>
+							</li>
+							<li>
+								<div class="helpImgBox">
+									<div class="floatl">
+										<img class="showPic" src="img/help02.jpg" />
+									</div>
+									<div class="floatr">
+										<img class="showPic" src="img/help03.jpg" />
+									</div>
+									<div class="clearBoth"></div>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="contentBox">
+						<ul>
+							<li>
+								<p>3.输入产品ID，即可添加产品，添加完成可继续添加。</p>
+							</li>
+							<li>
+								<div class="helpImgBox">
+									<div class="floatl">
+										<img class="showPic" src="img/help04.jpg" />
+									</div>
+									<div class="floatr">
+										<img class="showPic" src="img/help05.jpg" />
+									</div>
+									<div class="clearBoth"></div>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="contentBox">
+						<ul>
+							<li>
+								<p>4.点击 “ 一键维修“，填写相关资料，即可申请维修。</p>
+							</li>
+							<li>
+								<div class="helpImgBox">
+									<div class="floatl">
+										<img class="showPic" src="img/help06.jpg" />
+									</div>
+									<div class="floatr">
+										<img class="showPic" src="img/help07.jpg" />
+									</div>
+									<div class="clearBoth"></div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="money" style="display: none;">
+					<ol>
+						<li>
+							超出保修期的雅洁智能门锁产品；
+						</li>
+						<li>
+							无有效保修凭证的雅洁智能门锁产品；
+						</li>
+						<li>
+							保修凭证上的雅洁智能门锁产品型号或编号与实物不相符合的雅洁智能门锁产品；
+						</li>
+						<li>
+							原厂雅洁门锁产品序列号及保修标签损坏，无法识别出厂日期的硕雅洁能门锁产品；
+						</li>
+						<li>
+							擅自涂改保修凭证，序列号及标签的智能门锁产品；
+						</li>
+						<li>
+							未按产品使用说明安装或使用而造成损坏的雅洁智能门锁产品；
+						</li>
+						<li>
+							未经允许的硬件改动造成损坏的雅洁智能门锁产品；
+						</li>
+						<li>
+							由于人为外力而导致的雅洁智能门锁产品损坏；
+						</li>
+						<li>
+							因不可抗力（地震，火灾，水灾，战争等灾害）造成损坏的雅洁智能门锁产品。
+						</li>
+					</ol>
+				</div>
 			</div>
 		</div>
 		<!--修改姓名信息-->
 		<div id="exchangePerson" class="exchangeBox" style="display: none;">
 			<div class="pHead">
-				<a href="###" class="back backP"><img src="img/back.png"/></a>
+				<a class="backP"><img src="img/back.png"/></a>
 				<p>修改姓名</p>
 			</div>
 			<div class="exInput">
@@ -193,7 +258,7 @@
 		<!--修改手机信息-->
 		<div id="exchangePhone" class="exchangeBox" style="display: none;">
 			<div class="pHead">
-				<a href="###" class="back backP"><img src="img/back.png"/></a>
+				<a class=" backP"><img src="img/back.png"/></a>
 				<p>修改手机</p>
 			</div>
 			<div class="exInput">
@@ -214,7 +279,7 @@
 		<!--修改地址信息-->
 		<div id="exchangeAddress" class="exchangeBox" style="display: none;">
 			<div class="pHead">
-				<a href="###" class="back backP"><img src="img/back.png"/></a>
+				<a class=" backP"><img src="img/back.png"/></a>
 				<p>修改地址</p>
 			</div>
 			<div class="exInput">
@@ -232,6 +297,10 @@
 			<div class="exBtn">
 				<button class="keepAddress">保存</button>
 			</div>
+		</div>
+		<!--图片放大-->
+		<div id="imgBig" style="display: none;">
+			<img src="" />
 		</div>
 		<script type="text/javascript" src="js/rPerson.js" ></script>
 		<script src="js/ydui.citys.js"></script>
