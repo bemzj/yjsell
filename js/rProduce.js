@@ -32,4 +32,14 @@ $(function(){
     	$('.produces').show();
 		$('.addProduce').hide();
     });
+    //选择类型
+    $('.type select').change(function(){
+		$(this).prev('span').html($(this).children('option:selected').val());
+	});
+	$('.quick').bind('click',function(){
+    	$('#quickRepair').stop().animate({'left':'0%'},500);
+    });
+    $('#quickRepair .backPerson').bind('click',function(){
+    	$('#quickRepair').stop().animate({'left':'100%'},500);
+    });
 });
