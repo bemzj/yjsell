@@ -181,6 +181,33 @@
 				<button>提交</button>
 			</div>
 		</div>
+		<div id="tongNet" style="left: 0;z-index: 10;display: block;">
+			<div class="pHead">
+				<a class=" backP"><img src="img/back.png"/></a>
+				<p>修改问题描述</p>
+			</div>
+			<div class="typeOut">
+				<div class="type">
+					<p>维修类型</p>
+					<span></span>
+					<select>
+						<option>类型1</option>
+						<option>类型2</option>
+						<option>类型3</option>
+						<option>类型4</option>
+					</select>
+					<img src="img/moreOrder.png" />
+				</div>
+			</div>
+			<div class="st">
+				<button>提交</button>
+			</div>
+			<script>
+				$('.type select').change(function(){
+					$(this).prev('span').html($(this).children('option:selected').html());
+				});
+			</script>
+		</div>
 		<div id="clipArea" style="display: none;">
 			<button id="clipBtn">截取</button>
 		</div>
